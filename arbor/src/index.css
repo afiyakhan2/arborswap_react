@@ -80,3 +80,225 @@ code {
 .f_icon{
   margin-right: 5px;
 }
+
+
+/*  --- Main Item Sec ---  */
+.main_item_box{
+
+}
+
+.main_item .card_img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 190px;
+}
+
+.main_item .card_img img{
+  height: 160px;
+  width: 160px;
+}
+
+.main_item .card_heading_text{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'Gilroy-bold', sans-serif;
+  font-style: normal;
+  line-height: 120%;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+
+.main_item  .card_heading_btn{
+  font-family: 'Gilroy-normal', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #00783F;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  
+}
+
+
+
+/* ----- Start Footer Section ----- */
+
+.footer_news_letter{
+  padding: 20px;
+  background: rgba(235, 245, 240, 1);
+}
+
+.footer_news_letter .news_letter_sec_1{
+padding-left:50px ;
+}
+
+.footer_news_letter .news_letter_sec_1 h5{
+  font-family: 'Gilroy-bold', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+}
+
+.footer_news_letter .news_letter_sec_1 input{
+  width: 350px;
+  margin-top: 5px;
+}
+
+.footer{
+  background-color: #10663D;
+  padding: 50px;
+}
+
+.footer_nav{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_sec_1{
+  padding-right: 50px;
+}
+
+.footer_logo_desc p{
+  font-family: 'Gilroy-light', sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.footer_nav .footer_heading{
+  font-family: 'Gilroy-bold', sans-serif;
+  margin-bottom: 5px;
+  color: #FFFFFF;
+}
+
+.footer_nav a{
+  font-family: 'Gilroy-light', sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+.copyright_section{
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+}
+
+
+.copyright_section p{
+  margin-top: 10px;
+  font-family: 'Gilroy-light', sans-serif;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+
+
+/* -------- Start Top Selling Section -------  */
+
+.top_selling_card{
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+}
+
+.top_selling_card img{
+  height: 70px;
+  width:70px;
+  border: 1px solid rgba(0,0,0, .125);
+  padding: 0px;
+  margin: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.top_selling_card .top_selling_card_text .top_selling_card_title{
+font-family: 'Gilroy-bold', sans-serif;
+font-style: normal;
+font-size: 15px;
+text-transform: capitalize;
+color: #464754;
+}
+
+.top_selling_card .top_selling_card_text .top_selling_card_desc{
+  font-family: 'Gilroy-light', sans-serif;
+  font-size: 14px;
+  color: #807373;
+}
+
+.top_selling_card .top_selling_card_text .top_selling_card_price{
+  font-family: 'Gilroy-bold', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #464754;
+  margin-top: 2px;;
+}
+
+.top_selling_container{
+  background: #EBF5F0;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+.top_heading{
+  font-family: 'Gilroy-bold', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 31px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+  margin-bottom: 50px;
+}
+
+.flashPicks{
+  height: 100px;
+   width:100% ;
+   margin-bottom: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+.flashPicks_box{
+  background-image:url('img/flashPicks2.png');
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flashPicks_box h1{
+  font-family: 'Gilroy-bold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+
+}
+
+.flashPicks_main{
+  background: rgba(0, 120, 63, 0.08);
+}

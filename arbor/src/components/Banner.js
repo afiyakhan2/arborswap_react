@@ -11,6 +11,32 @@ export default function Banner() {
   
 
   return (
+<>
+   
+{/* ------ Start Banner Section ------ */}
+
+<section>
+   <div className="banner_container">
+    <div className="row">
+      <div className="col-sm-12 col-lg-5 col-m-5">
+        <div className="banner_content">
+          <div className="banner_heading">
+            <h5>The Crypto Way For Ecommerce</h5>
+          </div>
+        </div>
+      </div>
+      <div className="col-sm-12 col-lg-5 col-m-5">
+
+      </div>
+      <div className="col-sm-12 col-lg-5 col-m-2">
+
+      </div>
+    </div>
+   </div>
+</section>
+
+{/* ------End Banner Section ----- */}
+
     <div className="isolate bg-white"> 
         <div className="relative">
           <div className="mx-auto max-w-3xl">
@@ -76,6 +102,7 @@ export default function Banner() {
         </div>
       
     </div>
+    </>
   )
 }
 

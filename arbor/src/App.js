@@ -9,6 +9,7 @@ import Banner from './components/Banner';
 import Footer from './components/Footer';
 import Items from './components/Items';
 import MainItems from './components/MainItems';
+import TopSelling from './components/TopSelling';
 
  function App() {
  return (
@@ -19,6 +20,7 @@ import MainItems from './components/MainItems';
           <MainCategory/> 
           <MainItems/>
           <Items/>
+          <TopSelling/>
           <Footer/>
        </>
  )
