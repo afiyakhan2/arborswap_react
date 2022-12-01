@@ -18,6 +18,252 @@ code {
     monospace;
 }
 
+/* Banner css */
+.banner_container_main{
+  background-image: url('img/banner_background.png');
+  width: 100%;
+  height:700px;
+  /*background: #EBF5F0;*/
+  padding-top: 100px;
+background-position: center;
+ 
+}
+
+.banner_container{
+  display: flex;
+}
+
+.banner_container .banner_main_first{
+  width: 40%;
+}
+
+.banner_container .banner_main_first .banner_heading{
+  font-size: 39px;
+  font-weight: 700;
+  font-family: 'Gilroy-Bold', sans-serif;
+  line-height: 58.5px;
+  
+
+}
+
+.banner_container .banner_main_first .banner_text{
+  padding-top: 20px; 
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Gilroy-Regular', 'sans-serif';
+  line-height: 30px; 
+
+}
+
+.banner_container .banner_main_first .banner_main_first_button{  
+display: flex;
+margin-top: 50px;
+}
+
+.banner_container .banner_main_first .banner_main_first_button .banner_main_first_button1{  
+  background: linear-gradient(93.1deg, #00783F -14.09%, #C89211 123.87%);
+  padding: 18px 40px 18px 40px ;
+  margin-right: 20px;
+  border-radius: 8px;
+  }
+
+  .banner_container .banner_main_first .banner_main_first_button .banner_main_first_button2{  
+    background: rgba(0, 120, 63, 0.02);
+    padding: 18px 40px 18px 40px ;
+    margin-right: 20px;
+    border-radius: 8px;
+    }
+  
+
+
+
+.banner_container .banner_main_second{
+  width: 40%;
+  background: rgba(255, 255, 255, 1);
+  padding: 0px;
+  border-radius: 50px;
+  position: relative;
+
+}
+.banner_container .banner_main_second .banner_main_second_img{
+
+  position: absolute;
+  width: 300px;
+  left:200px;
+  top:10px
+}
+.banner_container .banner_main_second_upper{
+  
+  background: rgba(255, 255, 255, 1);
+  height: 60%;
+  border-radius: 10px;
+
+}
+
+.banner_main_second_upper_img{
+  background-image: url('img/banner_header.png');
+  width: 250px;
+  height: 60px;
+  margin: 0px;
+}
+
+.banner_main_second_upper_img h1{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  color: #FFFFFF;
+  margin-left: 90px;
+  margin-top: 25px;
+  position: absolute;
+ 
+}
+
+.banner_main_second_upper_wear{
+
+  background: #FBF7EC;
+border-radius: 4px;
+width: 110px;
+height: 31px;
+margin-left: 50px;
+top: 87.72px;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+margin-top: 20px;
+
+}
+
+.banner_main_second_upper_wear span{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #C89211;
+}
+.banner_main_second_upper_brand{
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 20px;
+  width: 120px;
+  height: 24px;
+  margin-left: 50px;
+
+
+}
+.banner_container .banner_main_second_lower{
+  
+  background: #FAF8F5;
+  height: 40%;
+  border-radius: 10px;
+
+}
+.banner_main_second_lower_price{
+display: flex;
+margin-left: 50px;
+padding-top: 20px;
+
+}
+
+.banner_main_second_lower_price .heading{
+  margin-right: 10px;
+  font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 120%;
+  
+  }
+
+  .banner_main_second_lower_shop{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 12px 24px;
+    background: #FFFFFF;
+    border-radius: 22px;
+    width: 155px;
+    height: 44px;
+    left: 40px;
+    top: 285.72px;
+    margin-left: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .banner_main_second_lower_shop .btn{
+    font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 120%;
+
+
+letter-spacing: 0.02em;
+text-transform: capitalize;
+
+
+
+color: #00783F;
+  }
+
+.banner_container .banner_main_third{
+  width: 20%;
+  padding-left: 20px;
+  
+
+}
+
+.banner_main_third .banner1{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.banner_main_third .banner2{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner_main_third .banner3{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
 /* Start fiture section */
 
 .fitureCardContent .cardDesc{
@@ -48,8 +294,8 @@ code {
 
 }
 
-.priceText span{
-  margin-top: 2px;
+.priceText strike{
+  margin-bottom: 2px;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -253,7 +499,9 @@ color: #464754;
   background: #EBF5F0;
   padding: 50px;
   padding-top: 100px;
+  
 }
+
 
 .top_heading{
   font-family: 'Gilroy-bold', sans-serif;
@@ -267,24 +515,22 @@ color: #464754;
 }
 
 .flashPicks{
-  height: 100px;
+   height: 100px;
    width:100% ;
-   margin-bottom: 5px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   
+   display: flex;   
+   align-items: center;   
 }
 
 .flashPicks_box{
   background-image:url('img/flashPicks2.png');
   background-size: cover;
-  width: 100%;
+  width: 500px;
   height: 100%;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  
 
 }
 
@@ -301,4 +547,87 @@ color: #464754;
 
 .flashPicks_main{
   background: rgba(0, 120, 63, 0.08);
+  margin-bottom: 50px;
+ 
 }
+
+
+.itemText{
+  display:flex; 
+}
+.itemText h5{
+  font-family: 'Gilroy-Bold', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  color: #464754;
+  margin-right: 10px;
+  margin-top: 20px;
+
+}
+
+.itemText span{
+  display:flex;
+  margin-top: 20px;
+  margin-left: -5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 120%;
+  color: #A69F9F;
+ 
+}
+.itemtext_line{
+  background: #00783F;
+  border-radius: 3px;
+  width: 144px;
+  height: 6px;
+  margin-top: 5px;
+}
+
+.uppertext{
+ 
+  background: rgba(200, 146, 17, 0.08);
+  border-radius: 22px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  float: right;
+  margin-right: 25px;
+  width: 55px;
+  height: 26px;
+  left: 157px;
+  top: 0px;
+
+}
+
+.uppertext span{  
+  width: 27px;
+  height: 14px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #C89211;
+}
+
+.flashPicks_main .flashPicks_btn{
+  font-family: 'Gilroy-normal', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #00783F;
+  display: flex;
+  justify-content:right;
+  align-items: center;
+  align-content: center;
+  
+  
+}
+
+

@@ -10,6 +10,7 @@ import Footer from './components/Footer';
 import Items from './components/Items';
 import MainItems from './components/MainItems';
 import TopSelling from './components/TopSelling';
+import FlashPicks from './components/FlashPicks';
 
  function App() {
  return (
@@ -20,6 +21,7 @@ import TopSelling from './components/TopSelling';
           <MainCategory/> 
           <MainItems/>
           <Items/>
+          <FlashPicks/>
           <TopSelling/>
           <Footer/>
        </>

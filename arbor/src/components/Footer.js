@@ -15,7 +15,8 @@ export default function Footer() {
 
 <section>
  
-  <div className="footer">
+  <div className="footer ">
+    <div className="container my-20 px-6 mx-auto">
     <div className="grid lg:grid-cols-5 md:grid-cols-5 sm:grid-cols-1">
       <div class="">
          <div className="footer_nav footer_sec_1" >
@@ -64,6 +65,7 @@ export default function Footer() {
     <div className="copyright_section">
       <p className='text-center'>  ©2022 Copyright:</p>
     </div>
+  </div>
   </div>
 </section>
 

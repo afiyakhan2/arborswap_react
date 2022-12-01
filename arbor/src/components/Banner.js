@@ -1,9 +1,10 @@
 
 
 /* This example requires Tailwind CSS v3.0+ */
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { useState } from 'react';
+import { Dialog } from '@headlessui/react';
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
+import image from'../img/banner_shoes.png';
 
 
 
@@ -12,96 +13,65 @@ export default function Banner() {
 
   return (
 <>
-   
-{/* ------ Start Banner Section ------ */}
-
 <section>
-   <div className="banner_container">
-    <div className="row">
-      <div className="col-sm-12 col-lg-5 col-m-5">
-        <div className="banner_content">
-          <div className="banner_heading">
-            <h5>The Crypto Way For Ecommerce</h5>
-          </div>
-        </div>
-      </div>
-      <div className="col-sm-12 col-lg-5 col-m-5">
+<div className="banner_container_main">
+<div className="container px-6 mx-auto">
+<div className="banner_container">
+    
+    <div className="banner_main_first">
+     <div className="banner_heading">
+      <h1>The Crypto </h1>
+      <h1>way of E-Commerce.</h1>
+     </div>
+     <div className="banner_text">
+      <h1>Buy, Trade, Redeem NFTs for Physical or</h1>
+      <h1>Virtual product from anywhere.</h1>
+     </div>
+     <div className="banner_main_first_button">
+            <div className='banner_main_first_button1'>
+               <a href="/"className="  ">Start Shopping</a>
+            </div>
+            <div className='banner_main_first_button2'>
+            <a href="/"className="">How It Work</a>
 
-      </div>
-      <div className="col-sm-12 col-lg-5 col-m-2">
-
-      </div>
-    </div>
-   </div>
-</section>
-
-{/* ------End Banner Section ----- */}
-
-    <div className="isolate bg-white"> 
-        <div className="relative">
-          <div className="mx-auto max-w-3xl">
-            <div>  
-             <div>
-                <h1 className="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                  Data to enrich your online business
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt
-                  amet fugiat veniam occaecat fugiat aliqua.
-                </p>
-                <div className="mt-8 flex gap-x-4 sm:justify-center">
-                  <a
-                    href="#"
-                    className="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-                  >
-                    Get started
-                    <span className="text-indigo-200" aria-hidden="true">
-                      &rarr;
-                    </span>
-                  </a>
-                  <a
-                    href="#"
-                    className="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                  >
-                    Live demo
-                    <span className="text-gray-400" aria-hidden="true">
-                      &rarr;
-                    </span>
-                  </a>
+            </div>
+                  
                 </div>
               </div>
-              <div className="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
-                <svg
-                  className="relative left-[calc(50%+3rem)] h-[21.1875rem] max-w-none -translate-x-1/2 sm:left-[calc(50%+36rem)] sm:h-[42.375rem]"
-                  viewBox="0 0 1155 678"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill="url(#ecb5b0c9-546c-4772-8c71-4d3f06d544bc)"
-                    fillOpacity=".3"
-                    d="M317.219 518.975L203.852 678 0 438.341l317.219 80.634 204.172-286.402c1.307 132.337 45.083 346.658 209.733 145.248C936.936 126.058 882.053-94.234 1031.02 41.331c119.18 108.451 130.68 295.337 121.53 375.223L855 299l21.173 362.054-558.954-142.079z"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="ecb5b0c9-546c-4772-8c71-4d3f06d544bc"
-                      x1="1155.49"
-                      x2="-78.208"
-                      y1=".177"
-                      y2="474.645"
-                      gradientUnits="userSpaceOnUse"
-                    >
-                      <stop stopColor="#9089FC" />
-                      <stop offset={1} stopColor="#FF80B5" />
-                    </linearGradient>
-                  </defs>
-                </svg>
-              </div>
-            </div>
-          </div>
+    
+    <div className="banner_main_second">
+        <div className='banner_main_second_upper'>
+        
+        <div className='banner_main_second_upper_img'><h1>Flash picks</h1></div>
+            <div className='banner_main_second_upper_wear'><span>Men Wear</span></div>
+            <div className='banner_main_second_upper_brand'><span>NIKE Air 270</span></div>
         </div>
-      
+        <div className='banner_main_second_lower'>
+            <div className="banner_main_second_lower_price">
+              <h5 className='heading'><b>$555.50</b></h5> <strike>$550.20 </strike>
+            </div>
+            <div className='banner_main_second_lower_shop'>
+                    <a href="/"className="btn"> Shop Now</a>
+            </div>
+        </div>
+      <div className='banner_main_second_img'>
+      <img src={image}className="w-full transition duration-300 ease-linear align-middle" />
+      </div>
     </div>
+
+
+    <div className="banner_main_third">     
+    <div className='banner1'>First</div>
+    <div className='banner2'>Second</div>
+    <div className='banner3'>Third</div>
+    </div>
+    </div>
+  </div>
+  </div>
+  
+
+</section>
+
     </>
   )
 }

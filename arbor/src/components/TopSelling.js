@@ -6,7 +6,8 @@ import { faAward } from '@fortawesome/free-solid-svg-icons'
 function TopSelling() {
   return (
 
-    <div className="container-fluid  px-6 mx-auto top_selling_container">
+    <div className="container-fluid  px-6 mx-auto top_selling_container ">
+        <div className="container my-20 px-6 mx-auto">
     <div>
         <h1 className='top_heading'>Top Selling Vendors</h1>
     </div>
@@ -165,6 +166,7 @@ function TopSelling() {
 
     </div>
   </div>
+</div>
 </div>
   
   )
