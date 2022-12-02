@@ -24,7 +24,7 @@ code {
   width: 100%;
   height:700px;
   /*background: #EBF5F0;*/
-  padding-top: 100px;
+  padding-top: 160px;
 background-position: center;
  
 }
@@ -78,61 +78,71 @@ margin-top: 50px;
 
 
 .banner_container .banner_main_second{
-  width: 40%;
+  width: 42%;
   background: rgba(255, 255, 255, 1);
   padding: 0px;
-  border-radius: 50px;
+  border-radius: 10px;
   position: relative;
 
 }
 .banner_container .banner_main_second .banner_main_second_img{
-
   position: absolute;
-  width: 300px;
-  left:200px;
-  top:10px
+  width: 281px;
+  height: 268px;
+  left: 216px;
+  top: 33px;
 }
 .banner_container .banner_main_second_upper{
   
   background: rgba(255, 255, 255, 1);
-  height: 60%;
+  height: 35%;
   border-radius: 10px;
 
 }
 
-.banner_main_second_upper_img{
+ .banner_main_second_upper_img{
   background-image: url('img/banner_header.png');
   width: 250px;
   height: 60px;
-  margin: 0px;
+  position: absolute;
+  top: -14px;
+  left: -20px;  
 }
 
-.banner_main_second_upper_img h1{
+.banner_main_second_upper_img .flash_heading{
   font-family: 'Gilroy';
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   line-height: 120%;
   color: #FFFFFF;
-  margin-left: 90px;
-  margin-top: 25px;
+  margin-left: 83px;
+  margin-top: 26px;
   position: absolute;
+  display: flex;
  
 }
 
-.banner_main_second_upper_wear{
+.banner_main_second_upper_img .flash_heading .flash_icon{
+  width: 20px;
+  margin-right: 5px;
+  margin-top: 2px;
+  height: 16px;
 
+}
+
+
+.banner_main_second_upper_wear{
   background: #FBF7EC;
-border-radius: 4px;
-width: 110px;
-height: 31px;
-margin-left: 50px;
-top: 87.72px;
-display: flex;
-justify-content: center;
-align-items: center;
-align-content: center;
-margin-top: 20px;
+  border-radius: 4px;
+  width: 110px;
+  height: 31px;
+  margin-left: 42px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-top: 85px;
 
 }
 
@@ -158,31 +168,29 @@ margin-top: 20px;
   margin-top: 20px;
   width: 120px;
   height: 24px;
-  margin-left: 50px;
-
-
+  margin-left: 42px;
 }
+
 .banner_container .banner_main_second_lower{
-  
   background: #FAF8F5;
-  height: 40%;
-  border-radius: 10px;
+  height: 41%;
+  border-radius:0px 0px 10px 0px;
 
 }
 .banner_main_second_lower_price{
-display: flex;
-margin-left: 50px;
-padding-top: 20px;
+  display: flex;
+  margin-left: 40px;
+  padding-top: 20px;
 
 }
 
 .banner_main_second_lower_price .heading{
   margin-right: 10px;
   font-family: 'Gilroy';
-font-style: normal;
-font-weight: 700;
-font-size: 20px;
-line-height: 120%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
   
   }
 
@@ -197,72 +205,227 @@ line-height: 120%;
     height: 44px;
     left: 40px;
     top: 285.72px;
-    margin-left: 20px;
+    margin-left: 40px;
     margin-top: 20px;
     justify-content: center;
     align-items: center;
     align-content: center;
   }
 
+  .banner_main_second_lower_shop .icon{
+    margin-bottom: 7px;
+    margin-right: 7px;
+    width: 25px;
+
+  }
+
   .banner_main_second_lower_shop .btn{
     font-family: 'Gilroy';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 120%;
-
-
-letter-spacing: 0.02em;
-text-transform: capitalize;
-
-
-
-color: #00783F;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #00783F;
   }
 
 .banner_container .banner_main_third{
   width: 20%;
-  padding-left: 20px;
+  padding-left: 20px; 
+
+}
+
+.banner_main_third_banner1{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 3px solid rgba(166, 159, 159, 0.2);
+  border-radius: 10px;
+
+}
+
+.banner_main_third_banner2{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 10px;
+  border: 3px solid rgba(200, 146, 17, 0.44);
+
+}
+
+.banner_main_third_banner3{
+  background: #FFFFFF;
+  border-radius: 10px;
+  width: 176px;
+  height: 112.28px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative; 
+  border-radius: 10px;
+  border: 3px solid rgba(166, 159, 159, 0.2);
+
+}
+
+
+
+.banner_main_third_banner2_upper{
+background: #ffffff;
+width:100%;
+height:55%;
+border-radius: 10px;
+
+}
+.banner_main_third_banner2_upper_img{
+  background-image: url('img/flash_icon_samll.png');
+  width:69px;
+  height:13px;
+  margin-left: 5px;
+  
+  }
+
+  .banner_main_third_banner2_upper_img .flash_heading2{
+ 
+    width:200px;
+    height:28px;
+    position: relative;
+    font-size: 5px;
+    display: flex;
+    margin-left: 18px;
+    padding-top:2px;
+    
+    }
+   
+    .banner_main_third_banner2_upper_img .flash_heading2 .flash_icon2{
+      height: 5px;
+      width: 5px;
+      margin-right: 5px;
+      
+    }
+
+    .banner_main_third_banner2_upper_wear .wear{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background: #FBF7EC;
+    border-radius: 1.21379px;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 26px;
+    height: 6px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.85517px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #C89211;
+    }
+
+    .banner_main_third_banner2_upper_brand .brand{
+      width: 37px;
+      height: 7px;
+      margin-left: 12.14px;
+      top: 40.27px;      
+      font-family: 'Gilroy';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 6.06897px;
+      line-height: 120%;      
+      letter-spacing: 0.02em;      
+      color: #464754;
+    }
+.banner_main_third_banner2_lower{
+  background: #FAF8F5;
+  width:100%;
+  height: 45%;
+  border-radius: 10px;
+  }
+
+.banner_main_third_banner2_lower_price{
+    display: flex;
+    margin-left: 12px;
+    padding-top: 10px;
+  }
+
+.banner_main_third_banner2_lower_price .heading{
+  width: 24px;
+  height: 7px;
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.06897px;
+  line-height: 120%;
+  letter-spacing: 0.02em;
+  color: #464754;
+  }
+
+.banner_main_third_banner2_lower_price strike{
+  width: 16px;
+  height: 5px; 
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.24828px;
+  line-height: 120%; 
+  letter-spacing: 0.02em;
+  text-decoration-line: line-through;  
+  color: #A69F9F;
+  padding-top: 2px;
+
+  }
+
+.banner_main_third_banner2_lower_price_shop{
+  display: flex;
+  padding: 3.64138px 7.28276px;
+  width: 47.67px;
+  height: 13.35px;
+  background: #FFFFFF;
+  border-radius: 6.67586px;
+  margin-top: 10px;
+  margin-left: 12px;
+  }
   
 
-}
+  
+.banner_main_third_banner2_lower_price_shop .btn{
+  width: 24px;
+  height: 6px;  
+  font-family: 'Gilroy';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4.85517px;
+  line-height: 120%;  
+  letter-spacing: 0.02em;
+  text-transform: capitalize;  
+  color: #00783F;
+  }
 
-.banner_main_third .banner1{
-  background: #FFFFFF;
-  border-radius: 10px;
-  width: 176px;
-  height: 112.28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .banner_main_third_banner2_img{
+    width: 100px;
+    height: 75px;
+    position: absolute;
+    left: 66px;
+    top: 5px;
+  }
 
-
-}
-
-.banner_main_third .banner2{
-  background: #FFFFFF;
-  border-radius: 10px;
-  width: 176px;
-  height: 112.28px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-}
-
-.banner_main_third .banner3{
-  background: #FFFFFF;
-  border-radius: 10px;
-  width: 176px;
-  height: 112.28px;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-
-}
 
 /* Start fiture section */
 
